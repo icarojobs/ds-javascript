@@ -25,7 +25,7 @@ Stack.prototype.push = function(value) {
         return this._count
     }
 
-    return `Max capacity of stack already reached! Remove element before adding a new one.`
+    return `Max capacity of stack already reached! Remove an element before adding a new one.`
 }
 
 Stack.prototype.pop = function() {
